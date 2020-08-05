@@ -33,3 +33,11 @@ spigot {
     }
 }
 
+
+/*
+On signale à Gradle qu'il faut lancer la tâche `spigotPlugin` (qui sert à générer le plugin)
+après avoir traité les ressources (comme le config.yml)
+ */
+processResources.finalizedBy(spigotPlugin)
+
+//Utilisez la tâche `jar` pour générer le plugin
