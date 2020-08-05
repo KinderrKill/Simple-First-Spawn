@@ -1,6 +1,6 @@
 # SimpleFirstSpawn - Author : KinderrKill
 
-https://i.goopics.net/PO8j5.png
+![SimpleFirstSpawn_Logo](https://i.goopics.net/PO8j5.png)
 
 Plugin Minecraft pour simplement définir un point d'apparition lors de la première connexion (Overworld, Nether et End)
 
