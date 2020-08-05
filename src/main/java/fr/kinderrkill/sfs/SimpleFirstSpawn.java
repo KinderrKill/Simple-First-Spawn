@@ -1,11 +1,11 @@
 package fr.kinderrkill.sfs;
 
-import java.io.File;
-
 import org.bukkit.Bukkit;
 import org.bukkit.ChatColor;
 import org.bukkit.configuration.file.YamlConfiguration;
 import org.bukkit.plugin.java.JavaPlugin;
+
+import java.io.File;
 
 public class SimpleFirstSpawn extends JavaPlugin {
 
