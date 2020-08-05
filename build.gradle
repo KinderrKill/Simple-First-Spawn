@@ -1,0 +1,35 @@
+plugins {
+    id 'java'
+    id 'fr.il_totore.manadrop' version '0.4.1-SNAPSHOT' //Un plugin visant à rendre le développement de plugins plus simple
+}
+
+import static fr.il_totore.manadrop.MinecraftRepositoryHelper.*
+import static fr.il_totore.manadrop.MinecraftDependencyHelper.spigotApi //On import les aliases
+
+group = 'fr.kinderrkill'
+version = '1.0'
+
+repositories { //Les repos nécessaires pour trouver les dépendances de Spigot
+    mavenCentral()
+    spigotSnapshot()
+    sonatype()
+}
+
+dependencies {
+    implementation spigotApi('1.16.1') //On ajoute L'API Spigot 1.16.1 en tant que dépendance
+}
+
+spigot {
+    desc { //ManaDrop permet la génération automatique du plugin.yml en se basant (par défaut) sur le nom du projet et sa version
+        main 'fr.kinderrkill.sfs.SimpleFirstSpawn'
+        apiVersion '1.16' //Depuis la 1.13, il est recommandé de mettre la version majeure de Spigot utilisée.
+        authors 'KinderKill'
+        command {
+            named 'simpleFirstSpawn'
+            description 'SFS commands'
+            aliases 'sfs'
+            usage '/simpleFirstSpawn define'
+        }
+    }
+}
+

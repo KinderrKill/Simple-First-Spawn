@@ -1,9 +1,0 @@
-name: SimpleFirstSpawn
-main: fr.kinderrkill.sfs.SimpleFirstSpawn
-version: 1.0
-author : KinderrKill
-commands:
-  simpleFirstSpawn:
-    aliases: [sfs]
-    description: SimpleFirstSpawn commands
-    usage: /simpleFirstSpawn define
