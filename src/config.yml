@@ -1,0 +1,35 @@
+#[ENG] Do you want to active the message when player join the server for the first time ? 'true' = on / 'false = off
+#[FR] Voulez-vous activer le message de bienvenue lors de la première connexion du joueur ? 'true' = activé / 'false' = désactivé
+active_first_join_message: true
+#[ENG] Do you want to active the sound when player join the server for the first time ? 'true' = on / 'false = off
+#[FR] Voulez-vous activer le son de bienvenue lors de la première connexion du joueur ? 'true' = activé / 'false' = désactivé
+first_join_sound: true
+#[ENG] Define the message when the player join the server for the first time (Color code enable example '&6' = Orange)
+#[FR] Définissez le message de bienvenue lors de la première connexion du joueur (Code couleur activé exemple '&6' = Orange)
+# You can fin color for this message here : https://www.minecraftforum.net/forums/support/server-support-and/1940468-how-to-add-colour-to-your-server-motd
+player_first_join_message: "Bienvenue dans cette aventure Yolycube %player% !"
+
+#[ENG] Do you want to active the message when player join the server  ? 'true' = on / 'false = off
+#[FR] Voulez-vous activer le message de bienvenue lors de la connexion du joueur ? 'true' = activé / 'false' = désactivé
+active_player_join_message: true
+#[ENG] Define the message when the player join the server (Color code enable example '&6' = Orange)
+#[FR] Définissez le message lors de la connexion du joueur (Code couleur activé exemple '&6' = Orange)
+# You can fin color for this message here : https://www.minecraftforum.net/forums/support/server-support-and/1940468-how-to-add-colour-to-your-server-motd
+player_join_message: "Bon jeu %player%"
+
+#[ENG] Do you want to active the message when player quit the server ? 'true' = on / 'false = off
+#[FR] Voulez-vous activer le message lors de la deconnxion du joueur ? 'true' = activé / 'false' = désactivé
+active_player_quit_message: true
+#[ENG] Define the message when the player quit the server for (Color code enable example '&6' = Orange)
+#[FR] Définissez le message lors de la deconnexion du joueur (Code couleur activé exemple '&6' = Orange)
+# You can fin color for this message here : https://www.minecraftforum.net/forums/support/server-support-and/1940468-how-to-add-colour-to-your-server-motd
+player_quit_message: "%player% c'est déconnecté du serveur..."
+
+#[ENG] Define the message when the player do the command /sfs define (Color code enable example '&6' = Orange)
+#[FR] Définissez le message quand le joueur fait la commande /sfs define (Code couleur activé exemple '&6' = Orange)
+# You can fin color for this message here : https://www.minecraftforum.net/forums/support/server-support-and/1940468-how-to-add-colour-to-your-server-motd
+command_define: "> Spawn définis avec succès !"
+#[ENG] Define the message when the player fail the command(Color code enable example '&6' = Orange)
+#[FR] Définissez le message quand le joueur se trompe dans la commande(Code couleur activé exemple '&6' = Orange)
+# You can fin color for this message here : https://www.minecraftforum.net/forums/support/server-support-and/1940468-how-to-add-colour-to-your-server-motd
+command_echec: "> Commande incorrecte, usage : /sfs define"
